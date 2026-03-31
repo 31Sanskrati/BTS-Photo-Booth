@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-purple-50 text-purple-900;
+    background: radial-gradient(circle at top left, #f3e5f5 0%, #e1bee7 50%, #ce93d8 100%);
+    min-height: 100vh;
+  }
+}
+
+.borahae-gradient {
+  background: linear-gradient(135deg, #6D319A 0%, #BB86FC 100%);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.glitch {
+  position: relative;
+}
+
+.glitch::before,
+.glitch::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  pointer-events: none;
+}
+
+/* 🔴 RED SHIFT (main glitch) */
+.glitch::before {
+  transform: translate(2px, 0);
+  filter: blur(1px);
+  mix-blend-mode: screen;
+  opacity: 0.6;
+  background: rgba(255, 0, 0, 0.4);
+}
+
+/* 🔵 CYAN SHIFT */
+.glitch::after {
+  transform: translate(-2px, 0);
+  filter: blur(1px);
+  mix-blend-mode: screen;
+  opacity: 0.5;
+  background: rgba(0, 255, 255, 0.3);
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}

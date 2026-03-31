@@ -1,0 +1,5 @@
+{
+  "name": "BTS Borahae Booth",
+  "description": "An exclusive BTS-themed photo booth for ARMY. Capture your moments, add BTS member and album stickers, and save your personalized Borahae photo strip.",
+  "requestFramePermissions": ["camera"]
+}
