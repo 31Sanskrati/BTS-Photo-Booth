@@ -1,12 +1,12 @@
-# 💜 BoraBooth — BTS Inspired Photobooth Experience
+# 💜 BORAHAE Booth — BTS Inspired Photobooth Experience
 
 > *“You never walk alone… and you never take boring photos again.”* ✨  
 
 ---
 
-## 🎤 What is BoraBooth?
+## 🎤 What is BORAHAEBooth?
 
-**BoraBooth** is a **BTS-inspired virtual photobooth web app** designed for ARMYs 💜  
+**BORAHAEBooth** is a **BTS-inspired virtual photobooth web app** designed for ARMYs 💜  
 Capture moments, apply album-inspired filters, add iconic quotes, and create aesthetic photo strips — just like Korean photobooths.
 
 > 📸 *From “Spring Day softness” to “Black Swan drama” — your vibe, your era.*
